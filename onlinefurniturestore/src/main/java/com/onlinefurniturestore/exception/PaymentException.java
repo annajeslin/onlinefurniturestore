@@ -1,6 +1,5 @@
 package com.onlinefurniturestore.exception;
 
-
 @SuppressWarnings("serial")
 public class PaymentException extends Exception{
 

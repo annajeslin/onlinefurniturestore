@@ -21,6 +21,7 @@ public class FurnitureExceptionController {
 		return new ResponseEntity<String>(ex.getMessage(),HttpStatus.BAD_REQUEST);
 	}
 	
+	
 
 
 }

@@ -146,5 +146,4 @@ public class FurnitureOrder {
 				+ ", status=" + status + "]";
 	}
 
-
 }

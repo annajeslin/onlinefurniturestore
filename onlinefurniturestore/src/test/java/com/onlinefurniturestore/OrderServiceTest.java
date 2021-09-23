@@ -30,7 +30,7 @@ public class OrderServiceTest {
 	}
 	
 	@Test
-	void updateOrderID() throws  UserNotFoundException{
+	void updateOrderID() throws UserNotFoundException{
 		FurnitureOrder order=new FurnitureOrder();
 		order.setOrderId("12");
 		order.setPrice(4545.66);
