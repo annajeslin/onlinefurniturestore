@@ -139,5 +139,12 @@ public class FurnitureOrder {
 			return false;
 		return true;
 	}
+	@Override
+	public String toString() {
+		return "FurnitureOrder [orderId=" + orderId + ", orderDate=" + orderDate + ", furniture=" + furniture
+				+ ", customer=" + customer + ", quanity=" + quanity + ", price=" + price + ", amount=" + amount
+				+ ", status=" + status + "]";
+	}
+
 
 }
