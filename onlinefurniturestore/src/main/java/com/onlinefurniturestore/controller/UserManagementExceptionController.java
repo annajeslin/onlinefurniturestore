@@ -19,4 +19,3 @@ public class UserManagementExceptionController {
 		return new ResponseEntity<String>(ex.getMessage(),HttpStatus.BAD_REQUEST);
 	}
 }
-
